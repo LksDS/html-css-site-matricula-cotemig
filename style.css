@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: blueviolet;
+  width: 100%;
+  height: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+table {
+  border-spacing: 0;
+  width: 100%;
+  height: 100%;
+}
+#header {
+  background-color: rgba(58, 11, 99);
+  backdrop-filter: brightness(0.7);
+  height: 70px;
+}
+#headerfoto {
+  margin-left: 300px;
+}
+.empty {
+  width: 180px;
+}
+#matriculaarea {
+  background-image: url(https://lh3.googleusercontent.com/drive-storage/AJQWtBNucR3gy-_M6Ct-Aj-8AiJRv2V7YL3gey6id3ktPx-E9p9MPr_Gq1IkTjI1Eyk1jBHNEdU46m-ufDZSs7aFI_cHynjpApVwBqIL3zO4MQ=w1544-h790);
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#matriculaside {
+  margin-right: 35px;
+  padding-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+}
+img#tudo__e__tech {
+  width: 500px;
+  margin-bottom: 25px;
+}
+img#matriculas__abertas {
+  width: 390px;
+  margin-bottom: 15px;
+}
+img#telefone__contato {
+  width: 280px;
+  margin-bottom: 60px;
+}
+img#referencia__google {
+  width: 230px;
+}
+#matricula__formulario {
+  width: 330px;
+  color: white;
+  padding: 30px;
+  padding-top: 50px;
+  background-color: rgba(255, 255, 255, 0.25);
+}
+#matricula__formulario h3 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+#matricula__mensagem {
+  font-size: 18px;
+}
+#whatsapp__logo {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: white;
+  padding: 10px;
+  width: 40px;
+  border-radius: 50%;
+}
+#whatsapp__logo:hover {
+  cursor: pointer;
+}
