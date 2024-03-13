@@ -8,7 +8,7 @@ body {
   height: 100%;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-span{
+span {
   display: block;
 }
 table {
@@ -65,6 +65,7 @@ img#referencia__google {
   padding-top: 50px;
   background-color: rgba(255, 255, 255, 0.25);
 }
+
 #matricula__formulario h3 {
   font-size: 24px;
   font-weight: 500;
@@ -73,12 +74,13 @@ img#referencia__google {
 #matricula__mensagem {
   font-size: 18px;
 }
-.above__txtbox{
- margin-top: 18px;
- margin-bottom: 5px;
- font-weight: 200;
+.above__txtbox {
+  font-size: 17px;
+  margin-top: 24px;
+  margin-bottom: 5px;
+  font-weight: 200;
 }
-.form__input{
+.form__input {
   width: 100%;
   height: 40px;
   font-size: 16px;
@@ -91,12 +93,78 @@ img#referencia__google {
   border-right-style: none;
   border-top-style: none;
 }
-#telefone__input{
+#telefone__input {
   display: flex;
 }
-#telefone__pais{
+#telefone__pais {
   width: 30px;
   margin-right: 10px;
+}
+#checkbox__area span {
+  margin-top: 20px;
+  font-size: 15px;
+}
+#checkbox__input {
+  display: flex;
+}
+#checkbox__input span {
+  margin-top: 10px;
+  margin-left: 7px;
+  font-size: 14px;
+}
+#send__button {
+  width: 100%;
+  margin-top: 30px;
+  padding: 18px;
+  font-size: 24px;
+  color: white;
+  background-color: rgb(58, 11, 99);
+  border: none;
+  border-radius: 20px;
+}
+#send__button:hover {
+  cursor: pointer;
+}
+.flex__center {
+  display: flex;
+  justify-content: center;
+}
+#pink__row {
+  height: 400px;
+  width: 100%;
+  background-color: rgb(251, 69, 199);
+  color: white;
+}
+#pink__row__content {
+  margin-top: 10px;
+}
+#pink__row__content div {
+  width: 60%;
+  padding: 15px 40px;
+  margin-left: 10px;
+}
+#pink__row__content h2 {
+  margin-bottom: 15px;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+#pink__row__content p {
+  font-family: "Raleway", sans-serif;
+}
+#pink__row__subtitle {
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+#pink__row__text {
+  text-align: justify;
+  font-size: 16px;
+  line-height: 27px;
+}
+#pink__row__image {
+  width: 50%;
+  padding-top: 20px;
 }
 #whatsapp__logo {
   position: fixed;
