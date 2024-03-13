@@ -6,7 +6,7 @@ body {
   background-color: blueviolet;
   width: 100%;
   height: 100%;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 span {
   display: block;
@@ -22,7 +22,7 @@ table {
   height: 70px;
 }
 #headerfoto {
-  margin-left: 300px;
+  margin-left: 23%;
 }
 .empty {
   width: 180px;
@@ -59,7 +59,7 @@ img#referencia__google {
   margin-bottom: 30px;
 }
 #matricula__formulario {
-  width: 330px;
+  width: 350px;
   color: white;
   padding: 30px;
   padding-top: 50px;
@@ -68,7 +68,7 @@ img#referencia__google {
 
 #matricula__formulario h3 {
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 20px;
 }
 #matricula__mensagem {
@@ -101,6 +101,7 @@ img#referencia__google {
   margin-right: 10px;
 }
 #checkbox__area span {
+  font-weight: 400;
   margin-top: 20px;
   font-size: 15px;
 }
@@ -111,6 +112,7 @@ img#referencia__google {
   margin-top: 10px;
   margin-left: 7px;
   font-size: 14px;
+  line-height: 16px;
 }
 #send__button {
   width: 100%;
@@ -130,18 +132,21 @@ img#referencia__google {
   justify-content: center;
 }
 #pink__row {
-  height: 400px;
+  height: 350px;
   width: 100%;
   background-color: rgb(251, 69, 199);
   color: white;
 }
-#pink__row__content {
+#pink__row__content{
   margin-top: 10px;
 }
 #pink__row__content div {
-  width: 60%;
+  width: 50%;
   padding: 15px 40px;
   margin-left: 10px;
+}
+#pink__row__content div div{
+  width: 40%;
 }
 #pink__row__content h2 {
   margin-bottom: 15px;
@@ -149,12 +154,9 @@ img#referencia__google {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
 }
-#pink__row__content p {
-  font-family: "Raleway", sans-serif;
-}
 #pink__row__subtitle {
   font-size: 17px;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 10px;
 }
 #pink__row__text {
