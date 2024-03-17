@@ -128,25 +128,35 @@ img#referencia__google {
   cursor: pointer;
 }
 #pink__row {
+  padding-top: 20px;
   display: flex;
   justify-content: center;
-}
-#pink__row {
   height: 400px;
   width: 100%;
   background-color: rgb(251, 69, 199);
   color: white;
+}
+#pink__row__image__space {
+  margin-top: 20px;
+  display: flex;
+  width: 50%;
+  justify-content: right;
+}
+#pink__row__image {
+  margin-right: 10px;
+  width: 55%;
+  height: min-content;
 }
 #pink__row__content {
   margin-top: 10px;
   width: 50%;
 }
 #pink__row__content div {
-  width: 60%;
+  width: 50%;
   padding: 15px 40px;
   margin-left: 10px;
 }
-#pink__row__content div div{
+#pink__row__content div div {
   width: 40%;
 }
 #pink__row__content h2 {
