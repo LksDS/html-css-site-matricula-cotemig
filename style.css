@@ -4,7 +4,7 @@
 }
 body {
   background-color: blueviolet;
-  width: 100%;
+  width: 100vw;
   height: 100%;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -125,21 +125,29 @@ img#referencia__google {
 #send__button:hover {
   cursor: pointer;
 }
-.flex__center {
-  display: flex;
-  justify-content: center;
-}
 #pink__row {
+  display: flex;
   height: 400px;
-  width: 100%;
   background-color: rgb(251, 69, 199);
   color: white;
 }
+#pink__row__image__space {
+  display: flex;
+  width: 50%;
+  justify-content: right;
+}
+#pink__row__image {
+  width: 55%;
+  height: fit-content;
+  margin-top: 40px;
+}
 #pink__row__content {
   margin-top: 10px;
+  width: 50%;
 }
 #pink__row__content div {
-  width: 60%;
+  margin-top: 20px;
+  width: 50%;
   padding: 15px 40px;
   margin-left: 10px;
 }
@@ -162,10 +170,7 @@ img#referencia__google {
   font-size: 16px;
   line-height: 27px;
 }
-#pink__row__image {
-  width: 50%;
-  padding-top: 20px;
-}
+
 #whatsapp__logo {
   position: fixed;
   bottom: 30px;
