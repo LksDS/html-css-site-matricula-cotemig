@@ -191,11 +191,75 @@ img#referencia__google {
   margin-bottom: 10px;
 }
 .icon__text {
+  width: 280px;
   text-align: center;
   color: rgb(102, 16, 131);
   font-size: 18px;
   font-weight: 600;
   line-height: 25px;
+}
+.purplebg{
+  background-color: rgba(67,11,110,1);
+}
+.colorgreen{
+  color: rgb(137, 246, 104);
+}
+.centertxt{
+  text-align: center;
+}
+#subtitle{
+  padding-top: 40px;
+}
+#subtitle h2{
+  font-weight: 600;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+#subtitle h3{
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+.sidebyside{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.sideleft{
+  height: 100% ;
+  display: flex;
+  justify-content: right;
+}
+
+.sideright{
+  margin-right: auto;
+}
+.sideimage{
+width: 459px;
+margin: 10px;
+}
+.sidetext{
+  color: #89f668;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 459px; 
+  height: 100%;
+  font-weight: 600;
+  background-color: rgba(91,16,120,1);
+  padding: 0 10px;
+}
+.sidetext div{
+  width: 77%;
+}
+.sidetexttitle{
+  font-size: 24px;
+  margin-bottom: 15px;
+  line-height: 32px;
+}
+.sidetextdescription{
+  font-size: 18px;
+  line-height: 24px;
 }
 #whatsapp__logo {
   position: fixed;
